@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tugas10118701">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/logo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.tugas10118701">
+        <activity android:name=".ProfileActivi> <activity/>
+        <activity android:name="
+            tools:ignore="MissingClass" />.RegisterActivity"></activity>
+        <activity
+            android:name=".SplashscreenActivity"
+            android:theme="@style/SplashScreenStyle"
+            tools:ignore="MissingClass,WrongManifestParent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity"
+            tools:ignore="MissingClass,WrongManifestParent" />
+        <activity android:name=".MainActivity"
+            tools:ignore="MissingClass,WrongManifestParent" />
+    </application>
+
+</manifest>
